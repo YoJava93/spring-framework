@@ -1,4 +1,4 @@
-package com.example.spring07springmvccontreller;
+package com.cydeo.spring07springmvccontreller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

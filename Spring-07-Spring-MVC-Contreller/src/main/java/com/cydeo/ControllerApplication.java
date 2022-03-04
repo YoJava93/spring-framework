@@ -1,13 +1,13 @@
-package com.example.spring07springmvccontreller;
+package com.cydeo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Spring07SpringMvcContrellerApplication {
+public class ControllerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Spring07SpringMvcContrellerApplication.class, args);
+        SpringApplication.run(ControllerApplication.class, args);
     }
 
 }
