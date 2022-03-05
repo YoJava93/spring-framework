@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<table>
+    <thead>
+    <tr>
+        <td>First Name</td>
+        <td>Last Name</td>
+        <td>Age</td>
+        <td>Gender</td>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td th:text="${firstName1}"> </td>
+        <td th:text="${lastName1}"> </td>
+        <td th:text="${age1}"> </td>
+        <td th:text="${gender1}"> </td>
+    </tr>
+    </tbody>
+
+    <tbody>
+    <tr>
+        <td th:text="${firstName2}"> </td>
+        <td th:text="${lastName2}"> </td>
+        <td th:text="${age2}"> </td>
+        <td th:text="${gender2}"> </td>
+    </tr>
+    </tbody>
+
+    <tbody>
+    <tr>
+        <td th:text="${firstName3.firstName}"> </td>
+        <td th:text="${lastName3.lastName}"> </td>
+        <td th:text="${age3.age}"> </td>
+        <td th:text="${gender3}"> </td>
+    </tr>
+    </tbody>
+
+</table>
+
+</body>
+</html>
+
